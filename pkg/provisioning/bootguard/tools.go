@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/9elements/converged-security-suite/v2/pkg/provisioning/bootguard/bootpolicy"
-	"github.com/linuxboot/cbfs/pkg/cbfs"
+	"github.com/linuxboot/fiano/pkg/cbfs"
 )
 
 func WriteBGStructures(image []byte, bpmFile, kmFile, acmFile *os.File) error {
